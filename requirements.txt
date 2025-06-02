@@ -1,2 +1,3 @@
 # docker file に記載し忘れてるもの
 transformers
+fastapi[standard]
