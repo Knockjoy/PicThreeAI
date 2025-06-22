@@ -8,7 +8,7 @@ sys.path.append("/root/picthree/PicThreeAI/src/AI")
 import learn_clip
 
 roles_dict = None
-with open("/root/picthree/PicThreeAI/src/AI/AIconfig/Role/ChatGPT/roles_data100.json") as f:
+with open("/root/picthree/PicThreeAI/src/AI/AIconfig/Role/ChatGPT/roles_data30.json") as f:
     roles_dict = json.loads(f.read())
 
 roles_data = []
@@ -48,3 +48,4 @@ def analyze(ImgPath:str)->str:
 
 if __name__=="__main__":
     print(analyze("/root/picthree/PicThreeAI/Apple.png"))
+    print(analyze("/root/picthree/PicThreeAI/canvas (4).png"))
