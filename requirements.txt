@@ -1,0 +1,7 @@
+# docker file に記載し忘れてるもの
+transformers
+fastapi[standard]
+pillow
+torch 
+torchvision 
+torchaudio --index-url https://download.pytorch.org/whl/cpu
