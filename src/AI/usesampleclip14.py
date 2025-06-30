@@ -1,3 +1,5 @@
+# copyright (c) 2025 Yuuki Furuta
+
 #%%
 
 from PIL import Image
